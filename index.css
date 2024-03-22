@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 100%;
+	height: 100vh;
+	background: radial-gradient(
+		circle,
+		rgba(94, 135, 229, 1) 0%,
+		rgba(13, 60, 228, 1) 100%
+	);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+
+#hour,
+#min,
+#sec {
+	color: #ffffff;
+	font-size: 32px;
+	width: 60px;
+	height: 60px;
+	background: rgb(94, 229, 138);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+}
+
+.meio {
+  font-size: 32px;
+  
+}
